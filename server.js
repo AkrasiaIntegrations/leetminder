@@ -5,7 +5,6 @@ var bodyParser = require('body-parser');
 var request = require('request');
 var cheerio = require('cheerio');
 
-
 var app = express();
 
 app.use(express.static('public'));
